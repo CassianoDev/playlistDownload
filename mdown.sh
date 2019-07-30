@@ -23,9 +23,9 @@ fi
 declare -i lines=$(wc -l < $playlist)
 declare -i videos=($lines-1)/2
 for ((video = 1; video <= $videos; video++)); do
-	videotitle="$(awk "NR==$video*2 {print}" $playlist | cut -d',' -f2-)"
-	videotitle=${videotitle//\//-}
-	echo -e "$video/$videos\tBaixando $videotitle"
+  videotitle="$(awk "NR==$video*2 {print}" $playlist | cut -d',' -f2-)"
+  videotitle=${videotitle//\//-}
+  echo -e "$video/$videos\tBaixando $videotitle"
   videolink="$(awk "NR==$video*2+1 {print}" $playlist)"
   extension="${videolink##*.}"
   wget -O "$outputdir/$video $videotitle.$extension" --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" $videolink
