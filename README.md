@@ -10,7 +10,7 @@ Exemplo:<br>
 ./mdown.sh filmes.m3u /var/www/meudownload
 
 
-USUÁRIOS WINDOWS:
+USUÁRIOS WINDOWS:<br>
 Para usar o script no Windows, baixe o arquivo zip abaixo: <br>
 https://github.com/CassianoDev/playlistDownload/raw/master/mdown.zip
 
