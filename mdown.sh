@@ -2,7 +2,7 @@
 #cassiano.dev
 set -ue
 usage() {
-    name=${i:-'download.sh'}
+    name=${i:-'mdown.sh'}
     echo "Use: $name minhaplaylist.m3u /pasta/para/salvar" >&2
     exit 1
 }
