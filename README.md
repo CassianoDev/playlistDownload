@@ -1,7 +1,6 @@
-Com este simples script você consegue baixar listas inteiras de reprodução em formato de playlist corretamente formatada em .m3u,
-aceita qualquer formato de arquivo na lista.
+Com este simples script você consegue baixar listas inteiras de reprodução em formato de playlist corretamente formatada em .m3u, com o nome do arquivo que está setado na playlist, este script aceita qualquer formato de arquivo na lista.<br>
 Para usar, baixe-o em uma pasta pública, se a pasta for de admin dê permissão chmod+x mdown.sh 
-ou crie o diretório que deseja salvar antes de seta-lo no arquivo.
+ou crie o diretório que deseja salvar antes de seta-lo no arquivo.<br>
 
 Para baixar sua playlist digite: <br>
 ./mdown.sh <playlist.m3u> <caminho_para_salvar>
