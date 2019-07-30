@@ -11,7 +11,8 @@ Exemplo:<br>
 
 USUÁRIOS WINDOWS:<br>
 Para usar o script no Windows, baixe o arquivo zip abaixo: <br>
-https://github.com/CassianoDev/playlistDownload/raw/master/mdown.zip
+https://github.com/CassianoDev/playlistDownload/raw/master/mdown.zip<br>
+Este arquivo contém os arquivos necessários para executar o script no Windows.<br>
 
 Descompacte-o em uma pasta de sua preferência.<br>
 Ex: Documentos <br>
