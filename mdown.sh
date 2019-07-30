@@ -17,8 +17,8 @@ fi
 playlist=$1
 outputdir=${2%/}
 if [ ! -d $outputdir ]; then
-	echo -e "Criando pasta $outputdir.\n"
-	mkdir -p $outputdir
+  echo -e "Criando pasta $outputdir.\n"
+  mkdir -p $outputdir
 fi
 declare -i lines=$(wc -l < $playlist)
 declare -i videos=($lines-1)/2
