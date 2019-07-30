@@ -30,5 +30,9 @@ Note que no Windows usamos barras '/' para apontar para um diretório, então se
 O diretório para você salvar seus conteúdos, será C:, então no exemplo acima estaremos selecionando a playlist que está em documentos, e salvando em C:/filmes, se quiser salvar em algum outro diretório ou sub-diretório, informe o caminho completo!<br>
 Exemplo:<br>
 
-./mdown.sh C:/Users/exemplo/Documents/playlist.m3u C:/Users/exemplo/videos
+./mdown.sh C:/Users/exemplo/Documents/playlist.m3u C:/Users/exemplo/Videos/Filmes<br>
+Se o diretório não existir, o script irá criar!<br>
+<br>
+
+Caso queira parar o script, tecle "CTRL+C"!
 
